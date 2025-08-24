@@ -1,0 +1,18 @@
+{
+    "display": {
+        "title": "Engineer",
+        "description": "Вы были назначены Engineer",
+        "icon": {
+            "item": "minecraft:yellow_wool"
+        },
+        "announce_to_chat": false,
+        "show_toast": true,
+        "hidden": true
+    },
+    "parent": "among_us:root",
+    "criteria": {
+        "role_assigned": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

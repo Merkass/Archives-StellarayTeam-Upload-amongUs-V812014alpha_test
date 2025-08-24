@@ -1,0 +1,18 @@
+{
+    "display": {
+        "title": "Among Us Roles",
+        "description": "Система ролей Among Us",
+        "icon": {
+            "item": "minecraft:player_head",
+            "nbt": "{SkullOwner:{Id:[I;-1789544521,1197002102,-2023543102,1943703941],Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDdjYzY2ODc0MjNkZDUzZGM4OGU5ZTc5M2JlZGY3ZTk4Y2U2YmQxYzJkMjFjNTI0MjY4MWQwMTAxY2Y3YyJ9fX0='}]}}}"
+        },
+        "background": "minecraft:textures/block/black_concrete.png",
+        "announce_to_chat": false,
+        "show_toast": false
+    },
+    "criteria": {
+        "installed": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}
