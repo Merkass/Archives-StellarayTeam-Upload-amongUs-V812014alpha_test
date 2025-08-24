@@ -1,0 +1,18 @@
+{
+    "display": {
+        "title": "Impostor",
+        "description": "Вы были назначены Impostor",
+        "icon": {
+            "item": "minecraft:red_wool"
+        },
+        "announce_to_chat": false,
+        "show_toast": true,
+        "hidden": true
+    },
+    "parent": "among_us:root",
+    "criteria": {
+        "role_assigned": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

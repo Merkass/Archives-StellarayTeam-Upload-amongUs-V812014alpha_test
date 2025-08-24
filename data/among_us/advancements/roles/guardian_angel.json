@@ -1,0 +1,18 @@
+{
+    "display": {
+        "title": "Guardian Angel",
+        "description": "Вы были назначены Guardian Angel",
+        "icon": {
+            "item": "minecraft:golden_wool"
+        },
+        "announce_to_chat": false,
+        "show_toast": true,
+        "hidden": true
+    },
+    "parent": "among_us:root",
+    "criteria": {
+        "role_assigned": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}
